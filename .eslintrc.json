@@ -1,0 +1,24 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:vue/vue3-essential"
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "parser": "@typescript-eslint/parser"
+    },
+    "plugins": ["@typescript-eslint", "vue"],
+    "rules": {
+        "eqeqeq": "error",
+        "strict": "error",
+        "comma-spacing": "warn",
+        "no-extra-parens": "error",
+        "no-trailing-spaces": "warn",
+        "quotes": "error"
+    }
+}
