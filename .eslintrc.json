@@ -19,6 +19,7 @@
         "comma-spacing": "warn",
         "no-extra-parens": "error",
         "no-trailing-spaces": "warn",
-        "quotes": "error"
+        "quotes": "error",
+        "vue/multi-word-component-names": "off"
     }
 }
