@@ -3,8 +3,8 @@ import User from "./User";
 
 export const user = new User({
     name: "AyanW",
-    pronouns: ["Them", "He", "She"], // at least one value required
-    description: "High school student, interested in game development.",
+    pronouns: ["They", "He", "She"], // at least one value required
+    description: "High school student, self-taught programmer.",
     birthday: {
         month: 12,
         day: 30,

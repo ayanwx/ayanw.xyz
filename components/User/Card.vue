@@ -1,11 +1,17 @@
 <template>
-    <section class="text-left w-[300px] p-4 bg-[#1c1b22] rounded-[5px]">
-        <UserAvatar />
-        <div class="font-[Raleway] text-2xl mt-3">{{ user.name }}</div>
-        <div class="text-grey text-[12px] mb-3">
-            {{ user.pronouns.join("/") }} | {{ user.getAge() }}
+    <section
+        class="flex flex-col text-left text-[12px] w-[300px] h-auto bg-card_bg rounded-[5px]"
+    >
+        <div class="flex">
+            <UserBanner />
         </div>
-        <UserDescription />
+        <div class="p-4 flex flex-col">
+            <div class="font-[Raleway] text-2xl mt-3">{{ user.name }}</div>
+            <div class="text-grey mb-3">
+                {{ user.pronouns.join("/") }} | {{ user.getAge() }}
+            </div>
+            <UserDescription />
+        </div>
     </section>
 </template>
 
