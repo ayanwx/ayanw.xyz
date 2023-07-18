@@ -1,19 +1,38 @@
 <template>
     <section
-        class="flex flex-col text-left text-[12px] w-[300px] h-auto bg-card_bg rounded-[7.5px]"
+        class="flex flex-col text-left text-[14px] w-[285px] h-auto bg-card_bg"
     >
-        <div class="flex">
+        <section class="flex">
             <UserCardBanner />
-        </div>
-        <div class="p-4 flex flex-col">
+        </section>
+        <section class="p-4 flex flex-col">
             <div class="font-[Raleway] text-2xl mt-3">{{ user.name }}</div>
             <div class="text-grey mb-3">
                 {{ user.pronouns.join("/") }} | {{ user.getAge() }}
             </div>
             <UserCardDescription />
-        </div>
-        <div></div>
+            <div class="flex flex-col pt-4 pb-4">
+                <UserCardFieldHeader text="About Me" />
+                <div
+                    class="flex flex-col"
+                    role="list"
+                    v-for="item in aboutMeItems"
+                    v-bind:key="item.emoji"
+                >
+                    <UserCardAboutMeItem
+                        :emoji="item.emoji"
+                        :text="item.text"
+                    />
+                </div>
+            </div>
+        </section>
     </section>
 </template>
 
-<script setup></script>
+<script setup>
+const aboutMeItems = [
+    { emoji: "gear", text: "Learning Unity & C++" },
+    { emoji: "snowflake", text: "Like to play games/watch anime" },
+    { emoji: "arch", text: "I use Arch btw" },
+];
+</script>
