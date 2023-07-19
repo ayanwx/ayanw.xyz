@@ -33,12 +33,27 @@
                     />
                 </div>
             </div>
+
+            <div class="flex flex-col pt-4">
+                <UserCardFieldHeader text="Socials" />
+                <div class="flex flex-row flex-wrap">
+                    <UserCardSocialLink
+                        v-for="item in user.socials"
+                        v-bind:key="item.type"
+                        :link="item.link"
+                        :icon="item.type"
+                    />
+                </div>
+            </div>
         </section>
     </section>
 </template>
 
 <script setup>
+import { user } from "~/utils/user";
+
 const aboutMeItems = [
+    { emoji: "earth-asia-aus", text: `Birthday: ${user.getBirthday()}` },
     { emoji: "gear", text: "Learning Unity & C++" },
     { emoji: "snowflake", text: "Like to play games/watch anime" },
     { emoji: "arch", text: "I use Arch btw" },

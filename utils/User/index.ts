@@ -13,7 +13,6 @@ interface SocialLink {
     type: string;
     username: string;
     link: string;
-    icon: string;
 }
 
 interface UserInput {
@@ -44,5 +43,15 @@ export default class User {
 
     getAge() {
         return new Date().getFullYear() - this.birthday.year;
+    }
+
+    getBirthday() {
+        return new Date(
+            `${this.birthday.year}-${this.birthday.month}-${this.birthday.day}`
+        ).toLocaleString("en-us", {
+            month: "short",
+            year: "numeric",
+            day: "numeric",
+        });
     }
 }

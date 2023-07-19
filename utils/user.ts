@@ -17,7 +17,30 @@ export const user = new User({
         { name: "C++", color: "#f34b7d" },
     ],
     socials: [
-        { type: "GitHub", username: "ayanvw", link: "", icon: "" },
-        { type: "Twitter", username: "_ayanw_", link: "", icon: "" },
+        {
+            type: "discord",
+            username: "ayan.w",
+            link: "https://discord.com/users/601613637551128623",
+        },
+        {
+            type: "github",
+            username: "ayanvw",
+            link: "https://github.com/ayanvw/",
+        },
+        {
+            type: "youtube",
+            username: "ayanwdev",
+            link: "https://www.youtube.com/channel/UCKurIBkOnxUPrzR4JXxxMiA",
+        },
+        {
+            type: "twitter",
+            username: "_ayanw_",
+            link: "https://twitter.com/_ayanw_",
+        },
+        {
+            type: "gmail",
+            username: "ayanxdev@gmail.com",
+            link: "mailto:ayanxdev@gmail.com",
+        },
     ],
 });
