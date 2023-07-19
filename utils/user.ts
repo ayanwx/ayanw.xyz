@@ -11,11 +11,10 @@ export const user = new User({
         year: 2005,
     },
     skills: [
-        { name: "NodeJS", color: "#exm" },
-        { name: "TypeScript", color: "#exm" },
-        { name: "Unity", color: "#000" },
-        { name: "C#", color: "#exm" },
-        { name: "C++", color: "#exm" },
+        { name: "NodeJS", color: "#43853d" },
+        { name: "TypeScript", color: "#0288d1" },
+        { name: "Unity", color: "#ffffff" },
+        { name: "C++", color: "#f34b7d" },
     ],
     socials: [
         { type: "GitHub", username: "ayanvw", link: "", icon: "" },

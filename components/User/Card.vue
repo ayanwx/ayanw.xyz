@@ -11,17 +11,25 @@
                 {{ user.pronouns.join("/") }} | {{ user.getAge() }}
             </div>
             <UserCardDescription />
-            <div class="flex flex-col pt-4 pb-4">
+            <div class="flex flex-col pt-4">
                 <UserCardFieldHeader text="About Me" />
-                <div
-                    class="flex flex-col"
-                    role="list"
-                    v-for="item in aboutMeItems"
-                    v-bind:key="item.emoji"
-                >
+                <div class="flex flex-col" role="list">
                     <UserCardAboutMeItem
+                        v-for="item in aboutMeItems"
+                        v-bind:key="item.emoji"
                         :emoji="item.emoji"
                         :text="item.text"
+                    />
+                </div>
+            </div>
+            <div class="flex flex-col pt-4">
+                <UserCardFieldHeader text="Skills" />
+                <div class="flex flex-row flex-wrap">
+                    <UserCardSkill
+                        v-for="skill in user.skills"
+                        v-bind:key="skill.name"
+                        :name="skill.name"
+                        :color="skill.color"
                     />
                 </div>
             </div>
