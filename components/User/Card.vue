@@ -7,7 +7,7 @@
         </section>
         <section class="p-4 flex flex-col">
             <div class="font-[Raleway] text-2xl mt-3">{{ user.name }}</div>
-            <div class="text-grey mb-3">
+            <div class="text-grey mb-3 select-none">
                 {{ user.pronouns.join("/") }} | {{ user.getAge() }}
             </div>
             <UserCardDescription />

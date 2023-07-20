@@ -3,7 +3,8 @@
         class="inline-flex p-[4px] mr-[2px] mt-[2px] bg-[#29303a] text-[11.5] font-mono rounded-[3px] items-center justify-center"
     >
         <a
-            class="inline-flex rounded-full h-[16px] w-[16px] mr-[4px] ml-[4px]"
+            class="inline-flex rounded-full h-[16px] w-[16px] mr-[4px] ml-[4px] select-none"
+            target="_blank"
             :href="link"
         >
             <img :src="iconLink(icon)" />

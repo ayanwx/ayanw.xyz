@@ -24,8 +24,8 @@ export const user = new User({
         },
         {
             type: "github",
-            username: "ayanvw",
-            link: "https://github.com/ayanvw/",
+            username: "ayanwx",
+            link: "https://github.com/ayanwx/",
         },
         {
             type: "youtube",

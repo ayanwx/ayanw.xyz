@@ -3,5 +3,3 @@
         <UserCardAvatar />
     </section>
 </template>
-
-<script setup></script>
