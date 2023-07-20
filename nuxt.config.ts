@@ -16,7 +16,5 @@ export default defineNuxtConfig({
             "Open+Sans": [400],
         },
         display: "swap",
-        download: true,
-        inject: true,
     },
 });
