@@ -33,7 +33,6 @@
                     />
                 </div>
             </div>
-
             <div class="flex flex-col pt-4">
                 <UserCardFieldHeader text="Socials" />
                 <div class="flex flex-row flex-wrap">
@@ -42,6 +41,8 @@
                         v-bind:key="item.type"
                         :link="item.link"
                         :icon="item.type"
+                        :color="item.color"
+                        :title="item.username"
                     />
                 </div>
             </div>

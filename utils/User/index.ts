@@ -1,18 +1,10 @@
+import type SocialLink from "./SocialLink";
+import type Skill from "./Skill";
+
 interface BirthDay {
     year: number;
     month: number;
     day: number;
-}
-
-interface Skill {
-    name: string;
-    color: string;
-}
-
-interface SocialLink {
-    type: string;
-    username: string;
-    link: string;
 }
 
 interface UserInput {
