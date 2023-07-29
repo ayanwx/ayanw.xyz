@@ -13,19 +13,19 @@
         "prepare": "husky install"
     },
     "devDependencies": {
-        "@nuxt/devtools": "latest",
-        "@types/node": "20.4.2",
-        "@typescript-eslint/eslint-plugin": "6.1.0",
-        "@typescript-eslint/parser": "6.1.0",
-        "eslint": "^8.45.0",
-        "eslint-plugin-vue": "^9.15.1",
+        "@nuxt/devtools": "0.7.1",
+        "@types/node": "20.4.5",
+        "@typescript-eslint/eslint-plugin": "6.2.0",
+        "@typescript-eslint/parser": "6.2.0",
+        "eslint": "8.46.0",
+        "eslint-plugin-vue": "9.16.0",
         "husky": "^8.0.3",
-        "nuxt": "^3.6.2",
+        "nuxt": "3.6.5",
         "prettier": "^3.0.0",
         "typescript": "^5.1.6"
     },
     "dependencies": {
-        "@nuxtjs/google-fonts": "^3.0.1",
+        "@nuxtjs/google-fonts": "3.0.2",
         "@nuxtjs/tailwindcss": "^6.8.0"
     }
 }
