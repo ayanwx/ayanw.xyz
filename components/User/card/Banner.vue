@@ -1,6 +1,6 @@
 <template>
     <section class="bg-[url(/images/banner.png)] bg-cover h-[135px] w-[285px]">
-        <UserCardInfoButton />
+        <UserCardPortfolioButton />
         <UserCardAvatar />
     </section>
 </template>

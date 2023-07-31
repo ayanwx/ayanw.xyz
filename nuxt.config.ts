@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 const name = "AyanW";
-const description = "Personal website and portfolio of AyanW";
+const description = "Personal website and portfolio of AyanW.";
 
 export default defineNuxtConfig({
     app: {

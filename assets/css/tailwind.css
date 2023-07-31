@@ -8,4 +8,7 @@
         @apply bg-black text-white;
         font-family: "Open Sans";
     }
+    li {
+        @apply flex pb-1;
+    }
 }

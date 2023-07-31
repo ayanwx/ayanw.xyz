@@ -1,14 +1,12 @@
 <template>
-    <section
-        class="flex flex-col text-left text-[14px] w-[285px] h-auto bg-card_bg"
-    >
+    <section class="flex flex-col text-left text-[14px] w-[285px] h-auto">
         <section class="flex">
             <UserCardBanner />
         </section>
-        <section class="p-4 flex flex-col">
+        <section class="flex flex-col p-4 bg-card_bg">
             <div class="font-[Raleway] text-2xl mt-3">{{ user.name }}</div>
             <div class="text-grey mb-3 select-none">
-                {{ user.pronouns.join("/") }} | {{ user.getAge() }}
+                {{ user.pronouns.join("/") }} {{ "|" }} {{ user.getAge() }}
             </div>
             <UserCardDescription />
             <div class="flex flex-col pt-4">
@@ -46,6 +44,9 @@
                     />
                 </div>
             </div>
+        </section>
+        <section class="flex">
+            <UserCardFooter />
         </section>
     </section>
 </template>
