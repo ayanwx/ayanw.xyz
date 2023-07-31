@@ -1,5 +1,5 @@
 <template>
-    <span role="listitem" class="flex">
+    <span class="flex">
         <img
             class="inline-flex h-[15px] w-auto mt-[4px] mr-[4px]"
             draggable="false"

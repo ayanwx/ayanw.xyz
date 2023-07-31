@@ -11,7 +11,7 @@ export default defineNuxtConfig({
             htmlAttrs: { lang: "en" },
             link: [
                 { rel: "icon", href: "/favicon.ico" },
-                { rel: "canonical", href: "https://ayanw.xyz" },
+                { rel: "canonical", href: "https://ayanw.xyz/" },
                 { rel: "alternate", href: "https://ayanw.xyz/" },
             ],
             meta: [

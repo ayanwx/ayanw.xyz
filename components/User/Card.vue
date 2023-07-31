@@ -55,7 +55,7 @@ import { user } from "~/utils/user";
 
 const aboutMeItems = [
     { emoji: "earth-asia-aus", text: `Birthday: ${user.getBirthday()}` },
-    { emoji: "gear", text: "Learning Unity & C++" },
+    { emoji: "gear", text: "Learning Unity & C#" },
     { emoji: "snowflake", text: "Like to play games/watch anime" },
     { emoji: "arch", text: "I use Arch btw" },
 ];

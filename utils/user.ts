@@ -16,7 +16,8 @@ export const user = new User({
         new Skill({ name: "NodeJS", color: "#43853d" }),
         new Skill({ name: "TypeScript", color: "#0288d1" }),
         new Skill({ name: "Unity", color: "#ffffff" }),
-        new Skill({ name: "C++", color: "#f34b7d" }),
+        new Skill({ name: "C", color: "#6396cc" }),
+        new Skill({ name: "C#", color: "#e26cd7" }),
     ],
     socials: [
         new SocialLink({
