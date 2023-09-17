@@ -15,6 +15,6 @@
 defineProps<{ link: string; icon: string; color: string }>();
 
 const iconLink = (icon: string, color: string) => {
-    return "https://cdn.simpleicons.org/" + icon + "/" + color;
+    return "https://cdn.simpleicons.org/" + icon + (color ? "/" + color : "");
 };
 </script>

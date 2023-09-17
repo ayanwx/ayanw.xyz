@@ -15,7 +15,7 @@ export const user = new User({
     skills: [
         new Skill({ name: "NodeJS", color: "#43853d" }),
         new Skill({ name: "TypeScript", color: "#0288d1" }),
-        new Skill({ name: "Unity", color: "#ffffff" }),
+        new Skill({ name: "Rust", color: "#D15A09" }),
         new Skill({ name: "C", color: "#6396cc" }),
         new Skill({ name: "C#", color: "#e26cd7" }),
     ],
@@ -37,9 +37,10 @@ export const user = new User({
             link: "https://www.youtube.com/channel/UCKurIBkOnxUPrzR4JXxxMiA",
         }),
         new SocialLink({
-            type: "twitter",
+            type: "x",
             username: "_ayanw_",
             link: "https://twitter.com/_ayanw_",
+            color: "ffffff",
         }),
         new SocialLink({
             type: "gmail",
